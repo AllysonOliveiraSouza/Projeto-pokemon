@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemón...temos que pegar ♫♫♫</title>
+    <link rel="stylesheet" href="./css/estilo.css" id="link-css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="./imagens/pokeball.png" alt="pokebola" onclick="TocarParar()" id="pokebola" class="pokeball">
+        <a href="./index.html"><button class="botao-voltar"> Voltar </button> </a>
+        <img src="./imagens/sun.png" alt="sol" onclick="MudarTema()" id="logo">
+    </header>
+
+    <main class="pagina-pokemon">
+        <figure class="box-pokemon">
+            <img src="./imagens/bulbasaur.gif" id="imagem-pokemon-escolhida" onclick="SomBubassauro()">
+        </figure>
+
+
+    </main>
+
+    <script>
+
+        function SomBubassauro() {
+            var bubba = new Audio('./audio/bubassauro.mp3');
+            bubba.play();
+        }
+
+    </script>
+
+    <script type="text/javascript" src="./js/javascripto.js">
+
+    </script>
+
+</body>
+
+</html>
